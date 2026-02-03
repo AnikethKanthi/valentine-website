@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Be My Valentine?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="ring-bg">
+        <span class="ring-anim ring1">💍</span>
+        <span class="ring-anim ring2">💍</span>
+        <span class="ring-anim ring3">💍</span>
+        <span class="ring-anim ring4">💍</span>
+        <span class="ring-anim ring5">💍</span>
+        <span class="flower-anim flower1">🌸</span>
+        <span class="flower-anim flower2">🌷</span>
+        <span class="flower-anim flower3">🌺</span>
+        <span class="flower-anim flower4">🌻</span>
+        <span class="flower-anim flower5">🌼</span>
+    </div>
+    <div class="container">
+        <div class="card">
+            <div class="hearts">
+                <span class="heart">❤️</span>
+                <span class="heart">💕</span>
+                <span class="heart">💖</span>
+            </div>
+            
+            <h1>Will You Be My Valentine? 💝</h1>
+            
+            <div class="button-container">
+                <button id="yesBtn" class="btn yes-btn">Yes!</button>
+                <button id="noBtn" class="btn no-btn">No</button>
+            </div>
+            
+            <div id="message" class="message"></div>
+        </div>
+    </div>
+
+    <!-- Confirmation Modal -->
+    <div id="confirmModal" class="modal">
+        <div class="modal-content">
+            <span class="emoji">🐶💍</span>
+            <h2 id="modalQuestion">Nijanga??</h2>
+            <div class="modal-message" id="modalMessage"></div>
+            <div class="modal-buttons">
+                <button class="modal-yes" id="modalYes">Yes!</button>
+                <button class="modal-no" id="modalNo">No</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
